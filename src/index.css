@@ -24,6 +24,7 @@ code {
   background: url("./images/image.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 4rem;
 }
 
 h1{
