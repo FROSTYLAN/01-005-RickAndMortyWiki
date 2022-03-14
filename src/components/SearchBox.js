@@ -12,7 +12,7 @@ const SearchBox = ({setLocation}) => {
 
     return (
         <div>
-            <input type="text" onChange={e => setTipeId(e.target.value)} value={typeId}/>
+            <input type="text" onChange={e => setTipeId(e.target.value)} value={typeId} placeholder="type a location id"/>
             <button onClick={searchType}>Search</button>
         </div>
     );

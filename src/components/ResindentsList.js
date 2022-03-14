@@ -3,7 +3,9 @@ import ResidentInfo from './ResidentInfo';
 
 const ResindentsList = ({residents}) => {
     return (
-        <div>
+        <div className='residentsList'>
+        <div className='residentsTitle'><h2>Residents</h2></div>
+        <div></div>
             {
                 residents?.map(residents => (
                     <ResidentInfo url={residents} key={residents}/>

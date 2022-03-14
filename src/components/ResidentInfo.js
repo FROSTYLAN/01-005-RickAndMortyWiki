@@ -14,15 +14,21 @@ const ResidentInfo = ({url}) => {
 
     return (
         <div className='residentInfo'>
-            <h3> { resident.name } </h3>
-            <img src={resident.image} alt="resident"/>
-            <p> {resident.status} - {resident.species} </p>
-            <br />
-            <small>origin</small>
-            <p>{resident.origin?.name}</p>
-            <small>episodes where appear</small>
-            <br/>
-            <p>{resident.episode?.length}</p>
+            <div><img src={resident.image} alt="resident" /></div>
+            <div>
+                <h3> {resident.name} </h3>
+                <p> {resident.status} - {resident.species} </p>
+                <br />
+                <div>
+                    <small>origin:</small>
+                    <p>{resident.origin?.name}</p>
+                </div>
+                <br />
+                <div>
+                    <small>episodes where appear:</small>
+                    <p>{resident.episode?.length}</p>
+                </div>
+            </div>
         </div>
     );
 };
