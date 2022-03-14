@@ -21,7 +21,6 @@ function App() {
   return (
     <div className="App">
       <div className='imgIntro'><img src={titleIntro} alt="" /></div>
-      <h1>Rick and Morty Wiki</h1>
       <SearchBox setLocation={setLocation} />
       <LocationInfo location={location}/>
       <ResindentsList residents={location.residents} />
