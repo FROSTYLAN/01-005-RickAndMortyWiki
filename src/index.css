@@ -15,9 +15,13 @@ code {
 }
 
 .imgIntro{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 98vw;
   height: 25vw;
-  background: url("./images/image.png");
+  background: url("./images/image.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -91,11 +95,17 @@ button{
       grid-template-columns: repeat(1, 1fr);
       max-width: 600px;
     }
+    .imgIntro img{
+      width: 280px;
+    }
 }
 
 @media screen and (max-width: 726px){
   .imgIntro{
     width: 97vw;
+  }
+  .imgIntro img{
+    width: 250px;
   }
   .locationInfo div{
     display: block;
@@ -109,6 +119,9 @@ button{
     max-width: 300px;
     margin-bottom: 1rem;
   }
+  .imgIntro img{
+    width: 200px;
+  }
   .residentInfo div img{
     border-radius: 1.5rem 1.5rem 0rem 0rem;
   }
@@ -117,6 +130,9 @@ button{
 @media screen and (max-width:490px){
   .imgIntro{
     width: 95vw;
+  }
+  .imgIntro img{
+    width: 180px;
   }
   button{
     padding: 1rem .5rem;

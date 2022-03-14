@@ -4,6 +4,7 @@ import axios from 'axios';
 import LocationInfo from './components/LocationInfo';
 import SearchBox from './components/SearchBox';
 import ResindentsList from './components/ResindentsList';
+import titleIntro from './images/titleIntro.svg'
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className='imgIntro'></div>
+      <div className='imgIntro'><img src={titleIntro} alt="" /></div>
       <h1>Rick and Morty Wiki</h1>
       <SearchBox setLocation={setLocation} />
       <LocationInfo location={location}/>
