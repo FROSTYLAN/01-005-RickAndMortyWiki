@@ -1,5 +1,8 @@
-# Probar aquí:
-> https://suspicious-noyce-8d49c2.netlify.app
+# 01-005-RickAndMortyWiki
+
+- Miniapp de Rick and Morty | Búsqueda por id | Consumo de API
+
+- Live Site URL: https://01-005-rick-morty-wiki.netlify.app/
 
 # Getting Started with Create React App
 
